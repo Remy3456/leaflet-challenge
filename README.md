@@ -11,28 +11,28 @@ This project demonstrates the creation of an interactive map using the Leaflet.j
 **Features**
 
 **1.	Basemap and Street Map Layers:**
-o	A basemap layer is created using OpenStreetMap tiles, which provides a general geographical layout as the background of the map.
-o	An optional street map layer, styled by the Humanitarian OpenStreetMap Team (HOT), serves as an alternate background option for a different perspective.
+	A basemap layer is created using OpenStreetMap tiles, which provides a general geographical layout as the background of the map.
+	An optional street map layer, styled by the Humanitarian OpenStreetMap Team (HOT), serves as an alternate background option for a different perspective.
 
 **2.	Interactive Map Initialization:**
-o	The map is initialized with a center point (latitude and longitude) and a default zoom level.
-o	The basemap is added as the default layer on map load.
+	The map is initialized with a center point (latitude and longitude) and a default zoom level.
+	The basemap is added as the default layer on map load.
 
 **3.	Layer Groups and Controls:**
-o	Two layer groups, earthquakes and tectonicPlates, are created to hold the earthquake markers and tectonic plate boundaries.
-o	Layer controls allow users to toggle between the basemap and street map, as well as enable or disable the display of earthquake and tectonic plate data.
+	Two layer groups, earthquakes and tectonicPlates, are created to hold the earthquake markers and tectonic plate boundaries.
+	Layer controls allow users to toggle between the basemap and street map, as well as enable or disable the display of earthquake and tectonic plate data.
 
 **4.	Earthquake Data Visualization:**
-o	Earthquake data is fetched from the USGS GeoJSON feed.
-o	Each earthquake is represented as a circle marker on the map, with:
-	Color determined by the depth of the earthquake (shallow to deep).
-	Radius determined by the earthquake's magnitude.
-o	Popups provide additional information about each earthquake, such as magnitude and location.
+	Earthquake data is fetched from the USGS GeoJSON feed.
+	Each earthquake is represented as a circle marker on the map, with:
+	Color determined by the depth of the earthquake (shallow to deep).
+	Radius determined by the earthquake's magnitude.
+	Popups provide additional information about each earthquake, such as magnitude and location.
 
 **5.	Legend:**
-o	A legend is added to explain the color coding for earthquake depths. Depth intervals are represented by color boxes to enhance understanding.
+	A legend is added to explain the color coding for earthquake depths. Depth intervals are represented by color boxes to enhance understanding.
 
 **6.	Tectonic Plate Boundaries:**
-o	Tectonic plate boundary data is fetched from a GeoJSON file and displayed as orange lines on the map.
-o	The tectonic plate layer can be toggled on or off independently of the earthquake layer.
+	Tectonic plate boundary data is fetched from a GeoJSON file and displayed as orange lines on the map.
+	The tectonic plate layer can be toggled on or off independently of the earthquake layer.
 
