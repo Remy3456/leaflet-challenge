@@ -6,7 +6,9 @@ This project creates an interactive map using Leaflet.js to visualize earthquake
 
 **Leaflet-Step-2**
 
-This project demonstrates the creation of an interactive map using the Leaflet.js library. The map visualizes earthquake data from the USGS Earthquake GeoJSON feed and tectonic plate boundaries from a public dataset. Additionally, it provides various customization and interactivity features, such as layer controls, popups, and a legend. Below is a breakdown of the key functionalities and steps:
+This project demonstrates the creation of an interactive map using the Leaflet.js library. The map visualizes earthquake data from the USGS Earthquake GeoJSON feed and tectonic plate boundaries from a public dataset. Additionally, it provides various customization and interactivity features, such as layer controls, popups, and a legend. 
+
+Below is a breakdown of the key functionalities and steps:
 
 **Features**
 
