@@ -22,9 +22,9 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     return {
       opacity: 1,
       fillOpacity: 1,
-      fillColor: getColor(feature.geometry.coordinates[2]), // depth
+      fillColor: getColor(feature.geometry.coordinates[2]),
       color: "#000000",
-      radius: getRadius(feature.properties.mag), // magnitude
+      radius: getRadius(feature.properties.mag),
       stroke: true,
       weight: 0.5
     };
@@ -57,7 +57,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     // Create a popup for each marker to display the magnitude and location of the earthquake after the marker has been created and styled
     onEachFeature: function (feature, layer) {
       layer.bindPopup(
-        `Magnitude: ${feature.properties.mag}<br>Location: ${feature.properties.place}`
+        `Magnitude: ${feature.properties.mag}<br>Location: ${feature.properties.place}<br>Depth: ${feature.geometry.coordinates[2]}`
       );
     }
   }).addTo(map);
